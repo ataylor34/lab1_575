@@ -1,2 +1,2 @@
-# lab1_575.github.io
+# lab1_575
 interactive gender equality in politics map
