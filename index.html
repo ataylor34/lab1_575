@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Women in Parliament</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="lib/leaflet-1.4.0/leaflet.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/leaflet.markercluster/MarkerCluster.css">
+		<link rel="stylesheet" href="lib/leaflet.markercluster/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="lib/leaflet.zoomhome.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+        
+	</head>
+
+	<body style = "background-color: #595959">
+        <div class= "header" >
+            
+            <h1>Gender Equality in Global Politics:</h1>
+            <h4>Proportion of seats held by women in national parliament</h4>
+            <img src= "img/parliament_bw.png" alt="parliament" />
+        </div>
+        <div id="navbar">
+            <a href="#mapid">Map</a>
+            <a href="#Equality">Equality</a>
+            <a href="#Data">Data</a>
+            <a href="#About">About</a>
+        </div>
+            
+    
+		<div id ="mapid"></div>
+		<div id="panel">
+            <h3>Use the map to investigate how the percentage of women in parliament has changed between 1990 and 2019 in these countries.</h3> 
+            <img src= "img/womengroup.png" alt="women in group"/>
+        </div>
+        
+        <div id="MapText">
+            <p>Use the slider in the interactive map to investigate the percent of women in parliament between 1990-2019. </p>
+        </div>
+        
+        
+        <div id="Equality">
+            <h2>GENDER EQUALITY IN POLITICS</h2>
+            <p>There are only three countries in the world where women outnumber men in parliament: Rwanda, Cuba, and Bolivia. Between 1995 and 2015 the percentage of women in parliament world-wide nearly doubled. However, this is still only about 22% of seats held by women in parliament. <br><br><strong>The United Nations has set a goal for parliaments to be 50:50 by the year 2030.</strong> <br><br>Data from the United Nations show great strides over the past 25 years in gender equality in politics but there is still much work to be done to reach the goal set for 2030. Use the interactive map above and see which countries are ahead of the goal and those that are behind the times.<br>
+                <img src= "img/women-in-parliament.gif" alt="infographic women in parliament" style="width:50%"/>
+                <figcaption>Infographic from <a href="https://www2.unwomen.org/en/digital-library/multimedia/2015/9/infographic-gender-equality-where-are-we-today">UN Women</a></figcaption>
+            </p>
+        </div>
+        
+        <div id="Data">
+            <h2>DATA</h2>
+            <p>The source of data is the Inter-Parliamentary Union (IPU), Geneva, "Women in Parliament" dataset and the Millennium Development Goals Indicators database.  <br><br>Data are from <a href="http://data.un.org/">UNdata</a>, "a clearinghouse of global and country data produced by United Nations agencies and member countries. It includes economic, demographic, environmental, transporation, social, and other datasets."
+            </p>
+        </div>
+        
+        <div id="About">
+            <h2>ABOUT</h2>
+            <p>Map created by A.Taylor,  March 2020
+                <br>University of Wisconsin-Madison - Master's in GIS & Web Map Programming
+                <br>Lab 1: Geography 575 - Interactive Cartography and Geovisualization
+            </p>
+        </div>
+        
+        
+
+
+
+
+		<!--library scripts-->
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="lib/leaflet-1.4.0/leaflet-src.js"></script>
+		<script type="text/javascript" src="lib/leaflet.markercluster/leaflet.markercluster-src.js"></script>
+        <script type="text/javascript" src="lib/leaflet.zoomhome.min.js"></script>
+
+		<!--main scripts-->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
